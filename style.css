@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contactus {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.contactus-pic {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.contactus-header {
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+   background: black;
+    margin-top: 30px;
+}
+
+.container .contact-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+
+.container .contact-info .box{
+    position:relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+    color:white;
+
+}
+
+  .container .contact-info .box .text{
+    position: relative;
+  
+    display: flex;
+ flex-direction: column;
+ font-size: 1.1em;
+ font-weight: 300;
+ color: white;
+
+  }
+
+
+  .container .contact-info .txt{
+    color:red;
+    margin-top: 30px;
+    font-weight: 500;
+    border-left: 40px;
+    line-height: 1em;
+    padding: 20px 0;
+   
+  }
+
+  .container .contact-info .social-icon{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+
+  }
+  
+  
+  .container .contact-info .social-icon li{
+    list-style: none;
+    padding: 20px 0;
+  }
+
+  
+  .container .contact-info .social-icon li a{
+    color: brown;
+    font-size: 1.5em;
+    transition: 0.25s;
+  }
+
+  
+  .container .contact-info .social-icon li a:hover{
+    
+    color:black;
+    filter: dropshadow( 0 0 5px brown);
+  }
+  
+  .container .contact-form {
+    position: relative;
+    width: 30%;
+    background: repeating-conic-gradient(from 117.deg, red 0%, red 10%, transparent 50%);
+    padding: 60px;
+  }
+*/
+
+.container .contact-form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 440px;
+    height: 550px;
+ 
+    background: rgba(225, 225, 225, 0.04);
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,.5);
+}
